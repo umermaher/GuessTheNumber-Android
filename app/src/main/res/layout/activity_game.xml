@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#028F80"
+    tools:context=".Game">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        android:text="Guess"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/white"
+        android:textSize="73dp"
+        android:textStyle="bold"
+        android:text="the Number"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@color/white"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/checkNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginTop="530dp"
+        android:text="check"
+        android:backgroundTint="#05332F"/>
+</RelativeLayout>
